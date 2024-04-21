@@ -1,0 +1,303 @@
+<html>  
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-image:url("Cafe Website/about-2.jpg");
+            background-attachment: fixed;
+            background-repeat:no-repeat;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .jumbotron {
+            clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+            background-image:url("Cafe website/event-custom.jpg");
+            text-justify: auto;
+            -webkit-text-fill-color:aliceblue;
+        } 
+        
+        * {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+  position: static;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+#text{
+  text-align: center;
+}
+
+        </style>
+    
+    </head>
+    <body>
+     
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">SWAGAT🙏</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- You can add additional items like a search bar or buttons here -->
+        </div>
+      </nav>
+        
+<!-- galler -->
+
+<div class="container" id="gallery">
+	<h1> SOME <span> SPECIALITY </span> </h1>
+	<hr>
+	<div class="row">
+		<div class="col-md-3">
+			<figure>
+				<img src="Cafe Website/CAFE/iced-americano.png">
+			<figcaption>iced-americano</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-3">
+			<figure>
+				<img src="Cafe Website/CAFE/hot-cappuccino.png">
+                <figcaption>hot-cappucciono</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-3">
+			<figure>
+				<img src="Cafe Website/CAFE/smoothie-1.png">
+			<figcaption>smoothie</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-3">
+			<figure>
+				<img src="Cafe Website/CAFE/menu-item-6.jpg">
+                <figcaption>drink</figcaption>
+			</figure>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-3">
+			<figure>
+				<img src="Cafe Website/CAFE/iced-latte.png">
+                <figcaption>cold coffee</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-3">
+			<figure>
+				<img src="Cafe Website/CAFE/hot-latte.png">
+                <figcaption>prema cha chaha</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-3">
+			<figure>
+				<img src="Cafe Website/CAFE/menu-item-7.jpg">
+                <figcaption>cold coffee</figcaption>
+			</figure>
+		</div>
+		<div class="col-md-3">
+			<figure>
+				<img src="Cafe Website/CAFE/smoothie-2.png">
+                <figcaption>lal chaha</figcaption>
+			</figure>
+		</div>
+	</div>
+</div>	
+
+
+
+<div class="jumbotron bg-theme" id="hero">
+    <b><h1 class="display-4">स्वगत 🙏</h1></b>
+    <p class="lead">"eat wondeful,experiences wonderful"</p>
+    <hr class="my-4">
+    <p>For years, cafes and coffee shops tried to be the “third place” for their customers: that special location between work and home, where someone could both enjoy the energy of being out in public and feel comfortable enough to sit for hours.
+
+        As fewer people work from offices these days, that “third” place might have gotten bumped up to second. Cafes and coffee shops are more important than ever to workers and networkers alike — and in order to bring people in, these businesses need to convey an inviting ambiance from the very first interaction a customer has with their brand. Often, that means having a great website.
+        
+        Keep reading to see some of the cafes and coffee shops able to do just that. Here are several of the best cafe and coffee shop websites on the internet.<h2><span>"swagat"</span></h2>.</p>
+  </div>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="row">
+        <h2 id="text">     Login with Social Media or Manually</h2>
+        <div class="vl">
+          <span class="vl-innertext">or</span>
+        </div>
+  
+        <div class="col">
+          <a href="#" class="fb btn">
+            <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+           </a>
+          <a href="#" class="twitter btn">
+            <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+          </a>
+          <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+            </i> Login with Google+
+          </a>
+        </div>
+  
+        <div class="col">
+          <div class="hide-md-lg">
+            <p>Or sign in manually:</p>
+          </div>
+  
+          <input type="text" name="username" placeholder="Username" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="submit" value="Login">
+        </div>
+        
+      </div>
+    </form>
+  </div>
+  
+  <div class="bottom-container">
+    <div class="row">
+      <div class="col">
+        <a href="#" style="color:white" class="btn">Sign up</a>
+      </div>
+      <div class="col">
+        <a href="#" style="color:white" class="btn">Forgot password?</a>
+      </div>
+    </div>
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+  
+    </body>
+</html>
